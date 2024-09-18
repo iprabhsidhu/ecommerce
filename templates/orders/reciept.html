@@ -1,0 +1,11 @@
+{% autoescape on %}
+
+Dear {{ user.first_name }},
+Your payment for the product is successful.
+Below are your order details,
+
+Order Number : {{ order.order_number }}
+
+This is an automated mail, don't reply here.
+For contacting us, visit us at 
+{% endautoescape %}
